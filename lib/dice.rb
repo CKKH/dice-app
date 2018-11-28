@@ -4,6 +4,7 @@ class Dice
   end
 
   def how_many_dice(number)
+    number
   end
 
 end
