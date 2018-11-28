@@ -8,4 +8,7 @@ describe Dice do
        dice = Dice.new
        expect(dice.roll).to be_between(1, 6)
      end
+
+  it { is_expected.to respond_to(:how_many_dice) }
+
   end
