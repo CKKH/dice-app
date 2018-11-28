@@ -7,4 +7,7 @@ class Dice
     number
   end
 
+  def record_rolls
+  end
+
 end

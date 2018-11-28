@@ -14,4 +14,7 @@ describe Dice do
   it '.how_many_dice records number of dice rolled' do
     expect(subject.how_many_dice(Integer)).to eq Integer
   end
+
+  it { is_expected.to respond_to(:record_rolls) }
+
 end
